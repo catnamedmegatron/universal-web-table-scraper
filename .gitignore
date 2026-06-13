@@ -1,0 +1,12 @@
+# Python Cache
+__pycache__/
+*.pyc
+
+# PyInstaller Build Folders
+build/
+dist/
+*.spec
+
+# Package Metadata
+*.egg-info/
+csv_files/
