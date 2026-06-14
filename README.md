@@ -2,9 +2,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pandas-3.0.3-red?logo=pandas" alt="Pandas">
-  <img src="https://img.shields.io/badge/Rich-15.0.0-blueviolet?logo=pandas" alt="Rich">
+  <img src="https://img.shields.io/badge/Rich-15.0.0-blueviolet?logo=rich" alt="Rich">
   <img src="https://img.shields.io/badge/BeautifulSoup-4.15.0-blue?logo=bs" alt="BeautifulSoup">
-  <img src="https://img.shields.io/badge/Requests-2.34.2-FF00E1?logo=bs" alt="Requests">
+  <img src="https://img.shields.io/badge/Requests-2.34.2-FF00E1?logo=requests" alt="Requests">
 </p>
 
 <p align="center">
