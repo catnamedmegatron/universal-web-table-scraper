@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/posts/shlokmathurkar_machinelearning-webscraping-datapipelines-activity-7471795449537081346-5hhY/">
-    <img src="https://img.shields.io/badge/demo-click-brightgreen?style=for-the-badge" alt="Demo">
+    <img src="https://img.shields.io/badge/demo%20video-click-brightgreen?style=for-the-badge" alt="Demo Video">
   </a>
 </p>
 
