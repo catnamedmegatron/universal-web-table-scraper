@@ -7,6 +7,12 @@
   <img src="https://img.shields.io/badge/Requests-2.34.2-FF00E1?logo=bs" alt="Requests">
 </p>
 
+<p align="center">
+  <a href="https://www.linkedin.com/posts/shlokmathurkar_machinelearning-webscraping-datapipelines-activity-7471795449537081346-5hhY/">
+    <img src="https://img.shields.io/badge/demo-click-brightgreen?style=for-the-badge" alt="Demo">
+  </a>
+</p>
+
 A lightning-fast, zero-configuration CLI tool designed to extract tabular data from any website and instantly convert it into Machine Learning-ready CSV datasets. 
 
 Whether you are building a custom neural network, fine-tuning an LLM, or performing exploratory data analysis, this tool eliminates the headache of manual web scraping and data sanitation.
