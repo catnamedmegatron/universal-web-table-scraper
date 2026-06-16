@@ -51,6 +51,7 @@ Earth,5.97,12756,9.8,1
 
 This tool is designed to fit your exact workflow. Choose the installation method that best suits your technical convenience.
 
+
 ### Method 1: The Global CLI Command (For Developers)
 
 *Best if you want to use the scraper constantly from any terminal on your computer.*
@@ -66,6 +67,7 @@ This tool is designed to fit your exact workflow. Choose the installation method
    run-scraper
    ```
 
+
 ### Method 2: The Standalone Executable (No Python Required)
 
 *Best if you do not have a Python environment set up, or want to share the tool with non-technical team members.*
@@ -73,6 +75,7 @@ This tool is designed to fit your exact workflow. Choose the installation method
 1. Navigate to the **Releases** tab on this GitHub repository.
 2. Download the `UniversalTableScraper.exe` file.
 3. **Usage:** Double-click the `.exe` file. A native terminal UI will open automatically, prompt you for a URL, and save the CSVs directly to your Desktop.
+
 
 ### Method 3: The Raw Python Script (For Tinkerers)
 
