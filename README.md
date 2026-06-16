@@ -20,15 +20,19 @@ Whether you are building a custom neural network, fine-tuning an LLM, or perform
 ---
 
 ## What This Tool Does
+
 The Universal Web Table Scraper takes any standard web URL, scans the page for structured data tables, and downloads them directly to your computer. It bypasses messy web formatting, ignores hidden layout grids, and automatically generates clean, isolated CSV files for every valid dataset found on the page.
 
 ## Why is this useful for Machine Learning?
+
 Raw web data is notoriously hostile to ML algorithms. This tool acts as the perfect Step 1 in your Data Engineering pipeline by outputting data that is heavily optimized for Scikit-Learn, PyTorch, and TensorFlow workflows:
+
 * **Footnote Erasure:** Web tables often contain bracketed footnotes (e.g., `1,450 [a]` or `Mercury [12]`). This tool automatically detects and strips web-artifacts, leaving pure strings and integers.
 * **Strict Grid Enforcement:** Missing columns and duplicated headers are automatically handled, preventing mathematical index crashing when loading the data into a Pandas DataFrame.
 * **Ready for Encoding:** Because the text is sanitized at extraction, the resulting CSVs can be immediately fed into Label Encoders or One-Hot Encoders to generate binary matrices for neural networks.
 
 ## The CSV Output Format
+
 Extracted tables are saved directly to a `csv_files` folder automatically generated on your **Desktop**. 
 
 Each table is saved as a uniquely indexed file (e.g., `Target_Webpage_Title_table_1.csv`). The CSVs retain the exact header structure of the original webpage, with all rows cleanly aligned.
@@ -48,6 +52,7 @@ Earth,5.97,12756,9.8,1
 This tool is designed to fit your exact workflow. Choose the installation method that best suits your technical convenience.
 
 ### Method 1: The Global CLI Command (For Developers)
+
 *Best if you want to use the scraper constantly from any terminal on your computer.*
 
 1. Clone this repository to your machine.
@@ -62,6 +67,7 @@ This tool is designed to fit your exact workflow. Choose the installation method
    ```
 
 ### Method 2: The Standalone Executable (No Python Required)
+
 *Best if you do not have a Python environment set up, or want to share the tool with non-technical team members.*
 
 1. Navigate to the **Releases** tab on this GitHub repository.
@@ -69,6 +75,7 @@ This tool is designed to fit your exact workflow. Choose the installation method
 3. **Usage:** Double-click the `.exe` file. A native terminal UI will open automatically, prompt you for a URL, and save the CSVs directly to your Desktop.
 
 ### Method 3: The Raw Python Script (For Tinkerers)
+
 *Best if you want to read, modify, or extend the Python code yourself.*
 
 1. Clone this repository.
